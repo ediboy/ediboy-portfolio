@@ -11,13 +11,13 @@ const Clients = () => {
       </div>
       <div className="grid grid-cols-2">
         <div>
-          <img src={miyensLogo} />
+          <img src={miyensLogo} alt="logo" />
         </div>
         <div>
-          <img src={geLogo} />
+          <img src={geLogo} alt="logo" />
         </div>
         <div>
-          <img src={vsaLogo} />
+          <img src={vsaLogo} alt="logo" />
         </div>
       </div>
     </section>

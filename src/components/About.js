@@ -16,7 +16,7 @@ const About = () => {
       </div>
 
       <div className="flex justify-center mt-6">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
       </div>
     </section>
   );

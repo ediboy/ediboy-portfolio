@@ -17,7 +17,7 @@ const Testimonials = () => {
             Asperiores doloremque itaque fuga mollitia.
           </div>
           <div className="flex justify-center">
-            <img src={logo} />
+            <img src={logo} alt="user" />
           </div>
           <div>Chris Ilagan</div>
           <div>Creative Director Miyens</div>

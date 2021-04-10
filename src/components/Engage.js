@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Engage = () => {
   return (
-    <section className="engage container mx-auto max-w-screen-xl px-4 py-20">
+    <section className="engage container mx-auto max-w-screen-xl px-4 pt-20 pb-2">
       <div className="text-3xl font-medium">
         <span className="text-ediboy-primary">
           Have a project in mind? <br />
@@ -44,7 +44,7 @@ const Engage = () => {
         </div>
       </div>
 
-      <div className="text-sm mt-10">Created using ReactJS and TailwindCSS</div>
+      <div className="text-xs mt-10">Created using ReactJS and TailwindCSS</div>
     </section>
   );
 };

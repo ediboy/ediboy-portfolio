@@ -3,6 +3,7 @@ import Works from "pages/Works";
 import Contact from "pages/Contact";
 import NotFound from "pages/NotFound";
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
   faCode,
   faEnvelope,
@@ -12,7 +13,7 @@ import {
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "components/Nav";
 
-library.add(faCode, faEnvelope, faTools, faMugHot);
+library.add(faCode, faEnvelope, faTools, faMugHot, fab);
 
 function App() {
   return (

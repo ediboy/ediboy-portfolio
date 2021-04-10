@@ -3,15 +3,9 @@ import Engage from "components/Engage";
 import WorkList from "components/WorkList";
 
 const Works = () => {
-  const { error, isPending, data: works } = useFetch(
+  const { error, isLoading, data: works } = useFetch(
     "https://firestore.googleapis.com/v1/projects/ediboy-ilagan/databases/(default)/documents/works"
   );
-
-  if (error) {
-  }
-
-  if (isPending) {
-  }
 
   return (
     <section className="works container mx-auto max-w-screen-xl px-4 py-2">

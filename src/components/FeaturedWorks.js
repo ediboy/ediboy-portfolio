@@ -6,12 +6,6 @@ const FeaturedWorks = () => {
     "https://firestore.googleapis.com/v1/projects/ediboy-ilagan/databases/(default)/documents/works"
   );
 
-  if (error) {
-  }
-
-  if (isLoading) {
-  }
-
   return (
     <section className="works px-4 bg-ediboy-primary py-20">
       <div className="container mx-auto max-w-screen-lg">

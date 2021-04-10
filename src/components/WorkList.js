@@ -4,7 +4,6 @@ const WorkList = ({ works }) => {
   const getId = (name) => {
     return name.substring(name.lastIndexOf("/") + 1);
   };
-  console.log(works);
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">

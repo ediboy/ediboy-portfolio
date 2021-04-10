@@ -2,9 +2,15 @@ import WorkList from "./WorkList";
 import useFetch from "hooks/useFetch";
 
 const FeaturedWorks = () => {
-  const { error, isPending, data: works } = useFetch(
+  const { error, isLoading, data: works } = useFetch(
     "https://firestore.googleapis.com/v1/projects/ediboy-ilagan/databases/(default)/documents/works"
   );
+
+  if (error) {
+  }
+
+  if (isLoading) {
+  }
 
   return (
     <section className="works px-4 bg-ediboy-primary py-20">

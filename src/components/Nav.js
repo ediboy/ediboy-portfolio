@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <nav className="navbar flex justify-between p-2 container mx-auto max-w-screen-xl px-4">
-      <Link to="/">
+      <Link to="/ediboy-portfolio">
         <div className="logo">
           <img className="w-16" src={logo} alt="logo" />
         </div>

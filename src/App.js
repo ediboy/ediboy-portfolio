@@ -26,13 +26,15 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route exact path="/ediboy-portfolio">
+            <Home />
+          </Route>
           <Route exact path="/works">
             <Works />
           </Route>
           <Route exact path="/contact">
             <Contact />
           </Route>
-
           <Route exact path="*">
             <NotFound />
           </Route>

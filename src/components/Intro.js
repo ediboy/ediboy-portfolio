@@ -6,10 +6,10 @@ const Intro = () => {
           Hi, I'm Ediboy. Let's make things happen!
         </div>
         <div>
-          It's been more than a decade since I started by adventure in tech
+          It's been more than a decade since I started my adventure in tech
           world, and it's never been boring. I met and collaborated with many
-          talented people and we've created wonderful products. Technology keeps
-          innovating, so I always improve myself one syntax at a time.{" "}
+          talented people and we've created wonderful projects. Technology keeps
+          innovating, so I always improve myself one syntax at a time.
         </div>
       </div>
     </section>

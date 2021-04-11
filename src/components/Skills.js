@@ -12,13 +12,13 @@ const Skills = () => {
 
         <div className="text-3xl font-medium mt-4">Skills</div>
         <div className="text-xl font-thin mb-5 text-gray-200">
-          Aquired skills during my journey
+          acquired skills during my journey
         </div>
 
         <div>Laravel</div>
         <div>Flutter</div>
-        <div>React</div>
-        <div>VueJs</div>
+        <div>ReactJS</div>
+        <div>VueJS</div>
         <div>TailwindCSS</div>
         <div>JavaScript</div>
         <div>jQuery</div>
@@ -38,7 +38,7 @@ const Skills = () => {
 
         <div className="text-3xl font-medium mt-4">Tools</div>
         <div className="text-xl font-thin mb-5 text-gray-200">
-          Some tools I use for work
+          some tools I use for work
         </div>
 
         <div>VS Code</div>

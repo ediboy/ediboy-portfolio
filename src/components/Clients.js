@@ -7,7 +7,7 @@ const Clients = () => {
     <section className="clients container mx-auto max-w-screen-xl px-4 py-20">
       <div className="text-3xl font-medium">Clients</div>
       <div className="text-xl font-thin mb-5 text-gray-400">
-        Awesome clients I worked with
+        awesome clients I worked with
       </div>
 
       <div className="flex justify-center mt-10">

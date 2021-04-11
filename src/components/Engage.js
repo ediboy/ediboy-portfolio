@@ -53,7 +53,7 @@ const Engage = () => {
         </div>
 
         <div className="border-solid border-ediboy-primary border-2 p-2 inline-block rounded-full w-16 h-16 flex items-center justify-center mx-2">
-          <Link to="/contact">
+          <Link to="/ediboy-portfolio/contact">
             <FontAwesomeIcon
               icon="envelope"
               size="2x"

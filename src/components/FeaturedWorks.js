@@ -29,7 +29,7 @@ const FeaturedWorks = () => {
         )}
 
         <div>
-          <Link to="/works">
+          <Link to="/ediboy-portfolio/works">
             <div className="mt-6 px-6 py-2 border border-white rounded-full border-solid inline-block hover:bg-black hover:bg-opacity-10 cursor-pointer">
               View More
             </div>

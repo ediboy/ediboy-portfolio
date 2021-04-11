@@ -23,19 +23,16 @@ function App() {
         {/* header */}
         <Nav />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
           <Route exact path="/ediboy-portfolio">
             <Home />
           </Route>
-          <Route exact path="/works">
+          <Route exact path="/ediboy-portfolio/works">
             <Works />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/ediboy-portfolio/contact">
             <Contact />
           </Route>
-          <Route exact path="*">
+          <Route exact path="/ediboy-portfolio/*">
             <NotFound />
           </Route>
         </Switch>

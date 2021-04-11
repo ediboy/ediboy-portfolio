@@ -12,13 +12,13 @@ const Nav = () => {
       </Link>
 
       <div className="menu flex my-auto">
-        <Link to="/works">
+        <Link to="/ediboy-portfolio/works">
           <div className="p-3 text-ediboy-primary border-">
             <FontAwesomeIcon icon="code" />
           </div>
         </Link>
 
-        <Link to="/contact">
+        <Link to="/ediboy-portfolio/contact">
           <div className="p-3 text-ediboy-primary border-">
             <FontAwesomeIcon icon="envelope" />
           </div>

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ediboy-portfolio/static/css/main.9933f577.chunk.css",
+    "main.js": "/ediboy-portfolio/static/js/main.e64fc8ad.chunk.js",
+    "main.js.map": "/ediboy-portfolio/static/js/main.e64fc8ad.chunk.js.map",
+    "runtime-main.js": "/ediboy-portfolio/static/js/runtime-main.e39be49f.js",
+    "runtime-main.js.map": "/ediboy-portfolio/static/js/runtime-main.e39be49f.js.map",
+    "static/css/2.bffc480b.chunk.css": "/ediboy-portfolio/static/css/2.bffc480b.chunk.css",
+    "static/js/2.4d901aea.chunk.js": "/ediboy-portfolio/static/js/2.4d901aea.chunk.js",
+    "static/js/2.4d901aea.chunk.js.map": "/ediboy-portfolio/static/js/2.4d901aea.chunk.js.map",
+    "static/js/3.6f8a45cd.chunk.js": "/ediboy-portfolio/static/js/3.6f8a45cd.chunk.js",
+    "static/js/3.6f8a45cd.chunk.js.map": "/ediboy-portfolio/static/js/3.6f8a45cd.chunk.js.map",
+    "index.html": "/ediboy-portfolio/index.html",
+    "static/css/2.bffc480b.chunk.css.map": "/ediboy-portfolio/static/css/2.bffc480b.chunk.css.map",
+    "static/css/main.9933f577.chunk.css.map": "/ediboy-portfolio/static/css/main.9933f577.chunk.css.map",
+    "static/js/2.4d901aea.chunk.js.LICENSE.txt": "/ediboy-portfolio/static/js/2.4d901aea.chunk.js.LICENSE.txt",
+    "static/media/coding.69c0bb60.png": "/ediboy-portfolio/static/media/coding.69c0bb60.png",
+    "static/media/logo.165cc60f.png": "/ediboy-portfolio/static/media/logo.165cc60f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e39be49f.js",
+    "static/css/2.bffc480b.chunk.css",
+    "static/js/2.4d901aea.chunk.js",
+    "static/css/main.9933f577.chunk.css",
+    "static/js/main.e64fc8ad.chunk.js"
+  ]
+}

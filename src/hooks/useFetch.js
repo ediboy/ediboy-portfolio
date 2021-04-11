@@ -15,9 +15,15 @@ const useFetch = (url) => {
             // error coming back from server
             throw Error("could not fetch the data for that resource");
           }
+
           return res.json();
         })
         .then((data) => {
+          if (!data.documents) {
+            // no documents found
+            throw Error("no data found!");
+          }
+
           setIsPending(false);
           setData(data);
           setError(null);

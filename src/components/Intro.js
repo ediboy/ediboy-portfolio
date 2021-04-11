@@ -8,7 +8,7 @@ const Intro = () => {
         <div>
           It's been more than a decade since I started by adventure in tech
           world, and it's never been boring. I met and collaborated with many
-          talented people and we created wonderful products. Technology keeps
+          talented people and we've created wonderful products. Technology keeps
           innovating, so I always improve myself one syntax at a time.{" "}
         </div>
       </div>

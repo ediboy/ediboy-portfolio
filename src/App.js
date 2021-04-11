@@ -9,16 +9,17 @@ import {
   faEnvelope,
   faTools,
   faMugHot,
+  faHourglassStart,
 } from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "components/Nav";
 
-library.add(faCode, faEnvelope, faTools, faMugHot, fab);
+library.add(faCode, faEnvelope, faTools, faMugHot, fab, faHourglassStart);
 
 function App() {
   return (
     <Router>
-      <div className="App min-h-screen bg-ediboy-bg text-white text-center font-ubuntu">
+      <div className="App min-h-screen bg-ediboy-bg text-white text-center font-ubuntu bg-pattern">
         {/* header */}
         <Nav />
         <Switch>

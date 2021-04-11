@@ -1,12 +1,12 @@
 import useFetch from "hooks/useFetch";
 import Engage from "components/Engage";
 import WorkList from "components/WorkList";
+import Loader from "components/Loader";
 
 const Works = () => {
   const { error, isLoading, data: works } = useFetch(
-    "https://firestore.googleapis.com/v1/projects/ediboy-ilagan/databases/(default)/documents/works"
+    "https://firestore.googleapis.com/v1/projects/ediboy-ilagan/databases/(default)/documents/featured-works"
   );
-
   return (
     <section className="works container mx-auto max-w-screen-xl px-4 py-2">
       <div className="text-4xl font-medium mb-2">
@@ -16,10 +16,17 @@ const Works = () => {
       <div className="text-xl font-thin mb-6 text-gray-200">
         Some works that I've done or involve in
       </div>
-      {works && (
-        <div>
-          <WorkList works={works.documents} />
-        </div>
+
+      {error && <div className="text-red-400 p-20">{error}</div>}
+
+      {isLoading ? (
+        <Loader />
+      ) : (
+        works && (
+          <div>
+            <WorkList works={works.documents} />
+          </div>
+        )
       )}
       <Engage />
     </section>

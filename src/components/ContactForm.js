@@ -17,10 +17,10 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        process.env.EMAIL_JS_SERVICE,
-        process.env.EMAIL_JS_TEMPLATE,
+        process.env.REACT_APP_EMAIL_JS_SERVICE,
+        process.env.REACT_APP_EMAIL_JS_TEMPLATE,
         params,
-        process.env.EMAIL_JS_USER
+        process.env.REACT_APP_EMAIL_JS_USER
       )
       .then(
         (result) => {
@@ -96,13 +96,13 @@ const ContactForm = () => {
             <input
               type="submit"
               value="Submit"
-              className="mt-6 px-6 py-2 border border-white rounded-full border-solid inline-block bg-transparent outline-none"
+              className="mt-6 px-6 py-2 border border-white rounded-full border-solid inline-block bg-transparent outline-none  hover:bg-black hover:bg-opacity-10 cursor-pointer"
             />
           </div>
         </form>
       ) : (
         <ReCAPTCHA
-          sitekey={process.env.CAPTCHA_SITE_KEY}
+          sitekey={process.env.REACT_APP_CAPTCHA_SITE_KEY}
           onChange={sendEmail}
         />
       )}
